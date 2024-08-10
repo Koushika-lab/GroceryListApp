@@ -1,0 +1,132 @@
+body {
+  font-family: 'Sora';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+   background-image:url('assets/background.jpg');
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size:4em;
+  font-family: 'Amatic SC';
+  text-align: center;
+  line-height: 0px;
+}
+
+h5 {
+  font-family: 'Amatic SC';
+  text-align: center;
+  line-height: 0px;
+}
+
+input[type="text"], input[type="number"] {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:  #46a046;
+}
+
+
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+  margin: 5px 10px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-controls button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #337ab7;
+}
+
+.quantity-controls button:hover {
+  background-color: #286090;
+}
+
+.delete-button {
+  background-color: #d9534f;
+}
+
+.delete-button:hover {
+  background-color: #c9302c;
+}
+.list-container {
+  margin-bottom: 10px;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e9ecef;
+  padding: 3px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.list-header span {
+  font-size: 1.2em;
+}
+
+.list-header button {
+  margin-left: 10px;
+  background-color: #007bff;
+}
+
+.list-header button:hover {
+  background-color: #0056b3;
+}
+
+ul li span.checked {
+  color: #f95959;
+  text-decoration: line-through;
+}
